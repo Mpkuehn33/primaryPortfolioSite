@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/mainpage.css">
+        <link rel="stylesheet" type="text/css" href="css/hover.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+        <title>
+        Michael Kuehn -- Web Developer
+        </title>
+    </head>
+    <body>
+        <div class="container-fluid page">
+            <header class="pageHead">
+                <div class="section">
+                    <div class="location pgtext">
+                        <a href="/">
+                            <strong>Michael Kuehn</strong>
+                        </a>    
+                            <span id="current">// Dev</span>
+                    </div>
+                </div>
+            </header>
+            <div class="pagebdy">
+            <div class="home">
+                <div>
+                    <img class="meimg" src="images/me1.jpg">
+                </div>
+                <div class="bdytxt">
+                    <br>
+                    <p>Hello - I am a developer. I've worked in various environments including <a href="wumdrop.com">start-ups</a>, <a href="jackmillercenter.org">non-profits</a>, and solo. My undergraduate focus was in Computer Science, but more importantly, my passion is in writing code and solving problems. I enjoy working in teams and learning from other developers as well as tackling problems that were initially thought to be "impossible". I am active on <a href="https://www.freecodecamp.com/mkuehn33">FreeCodeCamp</a>, <a href="https://github.com/Mpkuehn33">GitHub</a>, and <a href="https://www.linkedin.com/in/mpkuehn">Linkedin</a>. Here is my <a href="http://facebook.com/mpkuehn">Facebook</a> too. I am constantly looking for new projects to take on so please feel free to contact me.</p> 
+                    <br>
+                </div>
+            </div>
+                
+                 <div class="bdytxt2">       
+                    <a href="projects/TicTacToe/index.html">
+                        <img class="projimg hvr-float-shadow" src="images/ttt.jpg">
+                    </a>
+                    <a href="projects/pomodoroclock/pomodoro.html">
+                        <img class="projimg hvr-float-shadow" src="images/pomodoro1.jpg">
+                    </a>
+                    <a href="projects/Calculator/calculator.html">
+                        <img class="projimg hvr-float-shadow" src="images/calculator1.jpg">
+                    </a>
+                    <a href="projects/quotegenerator/quotegenerator.html">
+                        <img class="projimg hvr-float-shadow" src="images/quotegenerator.jpg">
+                    </a>      
+                </div>
+                
+                <div class="bdytxt3">
+                    <embed src="images/ResumeMain.pdf" width="800px" height="1075px">
+                </div>
+                
+                <div class="bdytxt4">
+                    <center>
+                    <form name="contactform" method="post" action="php/send_form_email.php"> 
+                        <table width="450px"> 
+                            <tr> 
+                                <td valign="top" align="right">
+                                    <label class="formtext" for="first_name">First Name:</label>
+                                </td>
+                                <td valign="top">
+                                    <input  type="text" name="first_name" maxlength="50" size="30">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" align="right">
+                                    <label class="formtext" for="last_name">Last Name:</label>
+                                </td>
+                                <td valign="top">
+                                    <input  type="text" name="last_name" maxlength="50" size="30">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" align="right">
+                                    <label class="formtext" for="email">Email Address:</label>
+                                </td>
+                                <td valign="top">
+                                    <input  type="text" name="email" maxlength="80" size="30">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" align="right">
+                                    <label class="formtext" for="comments">Comments:</label>
+                                </td>
+                                <td valign="top">
+                                    <textarea  name="comments" maxlength="1000" cols="32" rows="6"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="form" colspan="2" style="text-align:center">
+                                    <input type="submit" value="Submit"> 
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    </center>
+                </div>
+                
+            </div>
+            <div class="section pageHead">
+                <nav class="links">
+                    <table>
+                        <tr class="pgtext">
+                            <td id="home" class="hvr-float-shadow" onclick="home()">Home</td>
+                            <td id="projects" class="hvr-float-shadow"  onclick="projects()">Projects</td>
+                            <td id="resume" class="hvr-float-shadow" onclick="resume()">Resume</td>
+                            <td id="Contact" class="hvr-float-shadow" onclick="contact()">Contact</td>
+                        </tr>
+                    </table>
+                </nav>            
+            </div>
+        </div>
+    </body>
+</html>

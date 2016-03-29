@@ -1,0 +1,32 @@
+.wrapper{
+    text-align:center;
+}
+
+.buttons{
+    display:flex;
+    margin: 0px;
+    justify-content:center;
+}
+
+.breakbtn{
+    margin-right:10px;
+}
+.sessionbtn{
+    margin-left:10px;
+}
+
+.timer{
+    background-color:yellow;
+    border-radius:50%;
+    width:300px;
+    height:300px;
+    margin:auto;
+}
+
+.timersession{
+    padding-top: 50px;
+}
+
+.timertime{
+    padding-top: 50px;    
+}

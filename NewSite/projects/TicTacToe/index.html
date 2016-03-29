@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+        <title>Tic Tac Toe!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jq.js"></script>
+    </head>
+    <body>
+        <div id="myModal" class="modal">
+            <div class="modal-content grr">
+                <span id="close" class="close">x</span>
+                    <p class="modalpara">Which do you prefer?<br>
+                        <button class="choicebtn" id="exes">X's</button>
+                        <button class="choicebtn" id="ohs">O's</button>                  
+                    </p>
+            </div>
+        </div>
+        
+       <div id="endModal" class="endModal">
+            <div class="modal-content grr">
+                <span id="close" class="close">x</span>
+                    <p id="whoWon" class="modalpara"><br>
+                <p id="humanWins">Your Wins:</p>
+                <p id="pcWins">Computer Wins:</p>
+                        <button class="choicebtn" id="playAgain">Play Again!</button>                 
+                    </p>
+            </div>
+        </div>
+
+        <div class="title">
+            <h2 class="title">Tic-Tac-Toe</h2>
+            <p class="title1">Can you beat the computer?</p>
+        </div>
+        
+        <div class="container">
+        <div class="board">
+            <div onclick="change(1)" id="topl" class="col-xs-4 topl"></div>
+            <div onclick="change(2)"id="topm" class="col-xs-4 topm"></div>
+            <div onclick="change(3)" id="topr" class="col-xs-4 topr"></div>
+            <div onclick="change(4)" id="midl" class="col-xs-4 midl"></div>
+            <div onclick="change(5)" id="midm" class="col-xs-4 midm"></div>
+            <div onclick="change(6)" id="midr" class="col-xs-4 midr"></div>
+            <div onclick="change(7)" id="botl" class="col-xs-4 botl"></div>
+            <div onclick="change(8)" id="botm" class="col-xs-4 botm"></div>
+            <div onclick="change(9)" id="botr" class="col-xs-4 botr"></div>
+        </div>
+        </div>
+    </body>
+</html>

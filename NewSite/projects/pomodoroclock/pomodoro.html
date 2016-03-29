@@ -1,0 +1,68 @@
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<script type="text/javascript" src="js/timer.js"></script>
+<head>
+    <title>
+        Pomodoro Productivity Clock
+    </title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+    <h3>
+    Pomodoro!
+    </h3>
+        
+<header>
+    
+    <div class="buttons">
+    <div class="breakbtn">
+        <p>
+            Break Length
+        </p>
+        
+        <button onclick="downbrk()">
+            -
+        </button>
+        
+        <span id="brklength">
+            25
+        </span>
+        
+        <button onclick="upbrk()">
+            +
+        </button>
+        
+    </div>
+    
+    <div class="sessionbtn">
+        <p>
+            Session Length
+        </p>
+        
+        <button onclick="downssn()">
+            -
+        </button>
+        
+        <span id="ssnlength">
+            45
+        </span>
+        
+        <button onclick="upssn()">
+            +
+        </button>
+        
+    </div>
+    </div>
+</header>
+    <div class="timer">
+        <p class="timersession">Session</p>
+        <p id="time" class="timertime">45:00</p>
+        <p  id="msg"></p>
+        <button onclick="js(); minus();">Start Time</button> 
+        <button onclick="stop();">Stop Time</button>
+    </div>
+        
+
+    </div>
+</body>

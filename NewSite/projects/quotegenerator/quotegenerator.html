@@ -1,0 +1,99 @@
+<style>
+    body{
+        background: -webkit-linear-gradient(black, silver); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(black, silver); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(black, silver); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(black, silver); /* Standard syntax */
+        height: 100%;
+    }
+    .wrapper{
+        text-align:center;
+        position: relative;
+        top: 40%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        }
+    .para{
+        font-size:large;
+    }
+    .quotebox{
+        border: 1px solid black;
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 25px;
+        box-shadow: 10px 10px 5px black;
+        z-index: 9999;
+    }
+    .fix{
+        padding-bottom: 15px;
+        text-shadow: 1px 1px silver;
+    }
+    button{
+        background: silver;
+        color: black;
+        border: 3px solid black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px black;
+    }
+    button:hover{
+        background: black;
+        border: 3px solid silver;
+        color: silver;
+    }
+    #quote{
+        font-size:large;
+    }
+    #author{
+        font-size:large;
+        font-style: italic;
+    }
+</style>
+
+
+
+<head>
+    <title>
+    Generator of Random Quotes
+    </title>
+</head>
+<body>
+    <div class="wrapper">
+    <h1 class="fix">
+        QuoteMaster
+    </h1>
+    <p class="para"> 
+    A collection of quotes, all of which have been approved by the dev.
+    </p>
+    
+    
+    <button onclick="myFunction()" type="button">
+        Give me a quote! 
+    </button>
+    
+    
+    <div class="quotebox">
+    <p id="quote">
+        Welcome to my quote Generator. 
+    </p>
+    <p id ="author">-Dev</p>
+    </div>
+    </div>
+    
+    
+    <script>
+        var quotes = ["Some people never go crazy, what truly horrible lives they must live.@-Charles Bukowski", "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid@-Albert Einstein", "Did you ever stop to think, and forget to start again?@-A.A. Milne", "People interest me, conversations don't.@-Gregory House", "You're only given a little spark of madness. You musn't lose it.@-Robin Williams", "As you can see, I have memorized this utterly useless piece of information long enough to pass a test question. I now intend to forget it forever. You've taught me nothing except how to cynically manipulate the system. Congratulations.@-Calvin", "The question isn't who is going to let me; it's who is going to stop me.@-Ayn Rand", "I guess I should warn you, if I turn out to be particularly clear, yo'uve probably misunderstood what I said.@-Alan Greenspan", "You must have chaos within you to give birth to a dancing star.@-Friedrich Nietzsche", "Nobody realizes that some people expend tremendous energy merely to be normal.@-Albert Camus", "Following instructions is overrated.@-Seth Godin", "Life is short ... so why waste it doing something dumb?@-Aaron Swartz", "I read a book one day and my whole life was changed.@-Orhan Pamuk", "Weekends don't count unless you spend them doing something completely pointless.@-Bill Watterson", "It's always better to leave the party early.@-Bill Watterson", "Everything interests me, but nothing holds me.@-Fernando Pessoa", "We are currently not planning on conquering the world.@-Sergey Brin", "between two evils, I choose the one I've never tried before.@-Robert A. Heinlein", "Knowledge is the food of the soul.@-Plato", "I don't care whether you agree with me or not.@-Howard Roark", "Hell is other people.@-Jean-Paul Sartre", "I have always imagined that Paradise will be a kind of library..@-Jorge Luis Borges","My passion is for scientific truth. I don't much care about good and evil. ... I care about what's true.@-Richard Dawkins", "Creating--That is the great salvation from suffering.@-Friedrich Nietzsche", "The cost of sanity in this society, is a certain level of alienation.@-Terence McKenna", "How can you let others decide for you?@-Howard Roark", "The adults were completely wrong.@-Aaron Swartz", "Ignorance is not bliss - it is oblivion.@-Philip Wylie", "Life's disappointments are harder to take when you don't know any swear words.@-Calvin", "I am an investigator by inclination. I feel a great thirst for knowledge.@-Immanuel Kant", "He who has a why to live can bear almost any how.@-Friedrich Nietzsche", "I often carry things to read so that I will not have to look at the people.@-Charles Bukowski", "Nothing in life is to be feared, it is only to be understood.@-Marie Curie", "I am free, no matter what rules surround me. If I find them tolerable, I tolerate them; if I fend them too obnoxious, I break them. I am free because I know that I alone am morally responsible for everything I do.@-Robert A. Heinlein", "Though this be madness, yet there's method in it.@-William Shakespeare" ];
+        function myFunction() {
+            var rq = quotes[Math.floor(Math.random() * quotes.length)];
+            var thesplit = rq.split("@");
+            document.getElementById("quote").innerHTML = thesplit[0];
+            document.getElementById("author").innerHTML = thesplit[1];
+        }
+        
+    </script>
+    
+</body>
+

@@ -1,0 +1,101 @@
+.pageHead{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.location{
+    font-size: 20px;
+    line-height: 30px;
+    float: left;
+    padding: 0;
+}
+
+.pgtext{
+    font-family: 'courier new', 'sans-serif';
+    padding-left: 10px;
+}
+
+.location a{
+        color: rgb(80,80,80);
+}
+
+a{
+    text-decoration: none;
+}
+
+.page{
+    height: 100%;
+}
+
+.pagebdy{
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(230,230,255);
+    position: relative;    
+    min-height: 265px;
+}
+
+.bdytxt{
+    line-height: 30px;
+}
+
+.bdytxt2{
+    line-height: 30px;
+    margin: auto;
+    display: none;
+    text-align: center;
+}
+
+.bdytxt3{
+    display: none;
+    text-align: center;
+}
+
+.bdytxt4{
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+.home{
+    
+}
+
+.form{
+    padding-top: 10px;
+}
+
+.projects{
+    line-height: 30px;
+}
+
+.meimg{
+    margin-top: -10px;
+    float: left;
+    border-radius: 100px;
+    padding-right: 10px;
+}
+
+.links{
+    float: right;
+}
+
+.links td{
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    font-size: 17px;
+}
+
+.projimg{
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
