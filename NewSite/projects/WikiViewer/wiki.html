@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js/wiki.js"></script>
+    </head>
+    <body>
+        <div class="wrap">
+        <h1>Wiki Browser</h1>
+        <p class="rand">Click <a class="randlink" href="http://en.wikipedia.org/wiki/Special:Random">here</a> for a random article</p>
+        </div>
+        <div  id="searchdiv" class="searchdiv">
+            <button class="searchbtn" onclick="initiateSearch()">Search</button>
+            <input contenteditable="true" class="txtinput" id="inputs" type="search" placeholder="What are you curious about?">
+        </div>
+            <!-- 10 divs -->
+            <div id="wrap2" class="wrap2">
+            <p class="goAgain" onclick="goAgain()">Back to Main Page</p>
+
+            <a id="ref0" href="">
+                <div id="0" class="entries hvr-pulse">
+                    <p class="ttl"  id="ttl0"></p>
+                    <p class="entry" id="log0"></p>
+                </div>
+            </a>
+
+            <a id="ref1" href="">
+                <div id="1" class="entries hvr-pulse">
+                    <p class="ttl" id="ttl1"></p>
+                    <p class="entry" id="log1"></p>
+                </div>
+            </a>
+
+            <a id="ref2" href="">
+                <div id="2" class="entries hvr-pulse">
+                    <p class="ttl" id="ttl2"></p>
+                    <p  class="entry" id="log2"></p>
+                </div>
+            </a>
+
+            <a id="ref3" href="">
+                <div id="3" class="entries hvr-pulse">
+                    <p class="ttl" id="ttl3"></p>
+                    <p class="entry" id="log3"></p>
+                </div>
+            </a>
+
+            <a id="ref4" href="">
+                <div id="4" class="entries hvr-pulse">
+                    <p class="ttl" id="ttl4"></p>
+                    <p class="entry" id="log4"></p>
+                </div>
+            </a>
+
+            <a id="ref5" href="">
+                <div id="5" class="entries hvr-pulse">
+                    <p class="ttl" id="ttl5"></p>
+                    <p class="entry"  id="log5"></p>
+                </div>
+            </a>
+
+            <a id="ref6" href="">
+                <div id="6" class="entries hvr-pulse">
+                    <p class="ttl" id="ttl6"></p>
+                    <p class="entry"  id="log6"></p>
+                </div>
+            </a>
+
+            <a id="ref7" href="">
+                <div id="7"  class="entries">
+                    <p class="ttl" id="ttl7"></p>
+                    <p class="entry"  id="log7"></p>
+                </div>
+            </a>
+
+            <a id="ref8" href="">
+                <div id="8" class="entries hvr-pulse">
+                    <p class="ttl" id="ttl8"></p>
+                    <p class="entry"  id="log8"></p>
+                </div>
+            </a>
+
+            <a id="ref9" href="">
+                <div id="9" class="entries hvr-pulse">
+                    <p class="ttl" id="ttl9"></p>
+                    <p class="entry"  id="log9"></p>
+                </div>
+            </a>
+        </div>
+    </body>
+</html>

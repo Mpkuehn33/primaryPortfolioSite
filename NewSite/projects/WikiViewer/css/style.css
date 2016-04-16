@@ -1,0 +1,141 @@
+body{
+    background: #3366CC !important; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(white, #3366CC, #3300CC) !important; /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(white, #3366CC, #3300CC) !important; /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(white, #3366CC, #3300CC) !important; /* For Firefox 3.6 to 15 */
+    background: radial-gradient(white, #3366CC, #3300CC) !important; /* Standard syntax */
+    text-align: center;
+    margin: 0;
+    height: 100%;
+}
+
+i{
+    cursor: pointer;
+}
+
+.rand{
+    margin-top: 5px;
+    text-size: 15px;
+    font-weight: bold;
+}
+.txtinput{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.searchbtn{
+    margin-bottom: 5px;
+    margin-right: -4px;
+    background: #3366CC; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#3366CC, #3333CC, #3300CC); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#3366CC, #3333CC, #3300CC); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#3366CC, #3333CC, #3300CC); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#3366CC, #3333CC, #3300CC); /* Standard syntax */
+    font-size:20px;
+   
+    color:white;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+.randlink{
+    color: black;
+}
+
+.goAgain{
+    cursor: pointer;
+    margin-top: 4px;
+    color: rgb(0, 180, 240);
+}
+
+.searchdiv{
+    display: inline-block;
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+    background: #3366CC;
+}
+
+.wrap{
+    margin-top: 145px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.wrap2{
+    display:none;
+}
+.entries{
+    color: white;
+    background: #1100DD;
+    width: 75%;
+    margin: auto;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 2px #FFFFFF;
+}
+
+.entries p{
+    text-align: left;
+}
+
+
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  75% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  75% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+.hvr-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.ttl{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.entry{
+    
+}
